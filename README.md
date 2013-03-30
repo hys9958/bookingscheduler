@@ -3,13 +3,13 @@ bookingscheduler
 
 ### Note : MapReduce booking job scheduler. It's be based on fair scheduler of apache hadoop. ###
 
-BookingScheduler is M/R scheduler of Hadoop Jobtracker. You can book a M/R job by bookingScheduler.
-BookingScheduler는 apache hadoopd의 jobtracker에서 사용되는 스케줄러로써, 기존 fairScheduler을 기반으로 만들어졌다. 
+- BookingScheduler is M/R scheduler of Hadoop Jobtracker. You can book a M/R job by bookingScheduler.
+- BookingScheduler는 apache hadoopd의 jobtracker에서 사용되는 스케줄러로써, 기존 fairScheduler을 기반으로 만들어졌다. 
 그러므로 모든 기능과 설정은 fairScheduler과 동일하고, 여기에 job 예약하는 기능이 추가되어 있다.
 
-job 예약은 2가지로 할 수 있다.
-1. booking time을 설정하여 설정한 시간이 되면 job이 실행.
-2. dependency job id를 설정하여 설정한 job에 success되면 job이 실행.
+- job 예약은 2가지로 할 수 있다.
+1 booking time을 설정하여 설정한 시간이 되면 job이 실행.
+2 dependency job id를 설정하여 설정한 job에 success되면 job이 실행.
 
 ## Screen shot ##
 ![Settings Window](https://raw.github.com/hys9958/bookingscheduler/master/contrib/bookingscheduler/designdoc/bookingScheduler.png)
