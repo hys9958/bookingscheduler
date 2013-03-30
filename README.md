@@ -8,6 +8,7 @@ bookingscheduler
 그러므로 모든 기능과 설정은 fairScheduler과 동일하고, 여기에 job 예약하는 기능이 추가되어 있다.
 
 - job 예약은 2가지로 할 수 있다.
+
 1 booking time을 설정하여 설정한 시간이 되면 job이 실행.
 2 dependency job id를 설정하여 설정한 job에 success되면 job이 실행.
 
