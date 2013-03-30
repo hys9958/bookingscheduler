@@ -11,7 +11,7 @@ bookingscheduler
 
 1 booking time을 설정하여 설정한 시간이 되면 job이 실행.
 
-2 dependency job id를 설정하여 설정한 job에 success되면 job이 실행.
+2 dependency job id를 설정하여 설정한 job이 success되면 job이 실행.
 
 ## Screen shot ##
 ![Settings Window](https://raw.github.com/hys9958/bookingscheduler/master/contrib/bookingscheduler/designdoc/bookingScheduler.png)
@@ -26,6 +26,7 @@ bookingscheduler
 	
 ## Install ##
 1 hadoop-bookingscheduler-${version}.jar moves to $HADOOP_HOME/lib.
+
 2 Append to $HADOOP_HOME/conf/mapred-site.xml
 
 	<property>
@@ -34,6 +35,7 @@ bookingscheduler
 	</property>
     	
 3 setting fair-scheduler.xml
+
 4 restart jobtracker
 
 ## usage ##
