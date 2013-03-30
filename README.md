@@ -10,6 +10,7 @@ bookingscheduler
 - job 예약은 2가지로 할 수 있다.
 
 1 booking time을 설정하여 설정한 시간이 되면 job이 실행.
+
 2 dependency job id를 설정하여 설정한 job에 success되면 job이 실행.
 
 ## Screen shot ##
